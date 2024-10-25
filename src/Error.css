@@ -1,0 +1,21 @@
+.container .row .img img {
+    position: relative;
+}
+
+.backtohome {
+    background-color: orange !important;
+    position: absolute;
+    top: 800px;
+    left: 390px;
+    font-size: 25px;
+    width: 180px;
+    font-weight: 900;
+    
+}
+.backtohome a{
+    color: black;
+
+
+
+
+}

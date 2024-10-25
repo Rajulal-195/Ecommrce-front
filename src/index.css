@@ -1,0 +1,427 @@
+.navbar img {
+  width: 200px;
+  margin: 15px 0px 10px 40px;
+
+}
+
+.headerfix {
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  margin-top: 0px !important;
+}
+
+.headerfixs {
+  width: 100%;
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* position: fixed; */
+  z-index: 9998;
+  padding-top: 80px;
+}
+
+.headerfixs li a {
+  color: white;
+}
+
+.navbar-nav {
+  margin: 0px auto !important;
+
+
+}
+
+.navbarx {
+  box-shadow: 0px 2px 5px 2px rgb(218, 209, 209);
+  margin: 0px auto !important;
+
+}
+
+.navbar-expand-sm .navbar-collapse ul {
+  padding: 0px auto !important;
+
+}
+
+.navbar-expand-lg .navbar-collapse ul {
+  margin: 0px auto !important;
+}
+
+.navbar button {
+  width: 200px;
+  margin-right: 40px;
+  background-color: orange;
+  border: none;
+  color: white;
+}
+
+.bas {
+  font-size: 30px !important;
+}
+
+.nav-item {
+  font-size: 18px;
+  padding: 0px 2px;
+  
+}
+
+
+.nav-item a:hover {
+  border: none !important;
+  /* background-color: whitesmoke; */
+  font-size: 18px;
+  /* font-weight: 600; */
+  box-shadow: 0px 0px 1px 10px 0px white;
+
+  color: orange !important;
+}
+
+
+/* Card for Mans */
+.card {
+  width: 28%;
+  display: inline-block;
+  margin: 18px;
+  border: none;
+  padding: 7px;
+  border-radius: 10px;
+  padding: 0px auto !important;
+  /* position: absolute; */
+  min-width:  300px !important;
+  /* max-width: ; */
+}
+
+.card:hover {
+  border: 1px solid rgb(241, 218, 229);
+  /* border: 1px solid blue; */
+  background-color: rgb(252, 252, 252);
+  /* background-color: white; */
+  box-shadow: 0px 0px 10px 1px rgb(213, 213, 213);
+
+}
+
+.card img {
+  border: 1px dashed rgb(205, 195, 200);
+  border-radius: 15%;
+}
+
+.card button {
+  color: white;
+  background: orange;
+  width: 90%;
+  margin: 0px auto !important;
+  border: none;
+
+}
+
+
+/* Form  */
+
+
+.contact-parent {
+  background: #fff;
+  display: flex;
+  margin: 80px 0;
+}
+
+.contact-child {
+  display: flex;
+  flex: 1;
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+}
+
+.child1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.child1 p {
+  padding-left: 20%;
+  font-size: 20px;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.child1 p span {
+  font-size: 16px;
+  color: #9df2fd;
+}
+
+.child2 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inside-contact {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.inside-contact h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inside-contact h3 {
+  text-align: center;
+  font-size: 16px;
+  color: #0085e2;
+}
+
+.inside-contact input,
+.inside-contact textarea {
+  width: 100%;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.48);
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.inside-contact input[type=submit] {
+  background-color: orange;
+  color: #fff;
+  transition: 0.2s;
+  border-radius: 5px;
+  margin: 30px 0;
+}
+
+.inside-contact input[type=submit]:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.2s;
+}
+
+@media screen and (max-width:991px) {
+  .contact-parent {
+    display: block;
+    width: 100%;
+  }
+
+  .child1 {
+    display: none;
+  }
+
+  .child2 {
+    background-image: linear-gradient(rgba(255, 255, 255, ), rgba(255, 255, 255, 0.7)), url("https://cdn.pixabay.com/photo/2019/06/28/00/17/architecture-4303279_1280.jpg");
+    background-size: cover;
+  }
+
+  .inside-contact input,
+  .inside-contact textarea {
+    background-color: #fff;
+  }
+}
+
+
+#carouselExampleIndicators {
+  padding-top: 0px !important;
+}
+
+/* about Page */
+.about {
+  /* margin: 0px auto !important; */
+  padding: 50px;
+  justify-items: center !important;
+  align-content: center;
+  align-items: center;
+  color: #303030;
+  font-size: 22px;
+}
+
+.about h1,
+h3 {
+  padding-left: 300px;
+  padding-bottom: 10px;
+  text-decoration: underline rgb(183, 178, 178);
+  color: orange;
+  /* margin: 0px auto !important; */
+}
+
+pre {
+  overflow: visible;
+}
+
+
+
+
+/* footer section start */
+
+body {
+  font-size: 14px;
+  background: #fff;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: poppins;
+
+
+}
+
+#footer {
+  background: #f7f7f7;
+  padding: 3rem;
+  /* padding-top: 5rem; */
+  padding-top: 7rem;
+  padding-bottom: 80px;
+  background-image: url("https://arena.km.ua/wp-content/uploads/3538533.jpg");
+}
+
+#footer2 {
+  background: #f7f7f7;
+  padding: 3rem;
+  margin-top: 0px;
+  /* padding-top: 5rem; */
+  padding-top: 7rem;
+  padding-bottom: 80px;
+  background-image: url("https://th.bing.com/th/id/OIP.OPu7-gGtg42-j0w6yekyGAHaBt?w=350&h=80&c=7&r=0&o=5&pid=1.7");
+}
+
+.social-links h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.social-links img {
+  padding-bottom: 25px;
+}
+
+.social-icons {
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #777777;
+}
+
+.social-icons a {
+
+
+  color: #777777;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
+.social-icons a i {
+  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  border-radius: 3px;
+  color: orange;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+li {
+  list-style: none;
+}
+
+.useful-link h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.useful-link img {
+  padding-bottom: 15px;
+}
+
+.use-links {
+  line-height: 32px;
+}
+
+.use-links li i {
+  font-size: 14px;
+  padding-right: 8px;
+  color: #898989;
+}
+
+.use-links li a {
+  color: #303030;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777777;
+}
+
+.use-links li a:hover {
+  color: #000;
+}
+
+.address h2 {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.address img {
+  padding-bottom: 15px;
+}
+
+.address-links li a {
+  color: #303030;
+  font-size: 15px;
+  font-weight: 500;
+  color: #777777;
+
+}
+
+.address-links li i {
+  font-size: 16px;
+  padding-right: 8px;
+  color: #82074a;
+
+}
+
+.address-links li i:nth-child(1) {
+  padding-top: 9px;
+}
+
+.address-links .address1 {
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+}
+
+.address-links {
+  line-height: 32px;
+  color: #777777;
+}
+
+.copy-right-sec {
+  padding: 1.8rem;
+  background: orange;
+  color: #fff;
+  text-align: center;
+}
+
+.copy-right-sec a {
+  color: #fcd462;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  border-radius: 25px;
+  margin-bottom: 10px;
+
+}
+
+h1,
+h4 {
+  margin-left: 60px;
+}
+
+.oldpr {
+  color: red;
+}
+.deco{
+  background-color: white;
+}

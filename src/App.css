@@ -1,0 +1,6 @@
+/* Card Design */
+
+.card-body ul li {
+    display: inline-block !important;
+    /* background-image: url('../public/abc.jpg.webp'); */
+}
